@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: .4s;
+}
+.circle{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 3px 2px;
+    transition: all 0.4s linear;
+}
+.labelToggle{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.316);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.toggle{
+    visibility: hidden;
+}
+.move{
+    transform: translateX(40px); 
+}
+.move.circle{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+.dark{
+    background-color: black;
+}
