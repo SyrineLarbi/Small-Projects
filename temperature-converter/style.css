@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to left bottom ,blue,red);
+}
+.temperature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.304);
+    padding: 26px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.49);
+-webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.49);
+-moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.49);
+    width: 35%;
+    text-align: center;
+}
+.text{
+    width: 220px;
+    outline: none;
+    padding: 7px;
+    background-color: rgba(146, 126, 126, 0.214);
+    color:#fff;
+}
+.text::placeholder{
+        color: rgba(255, 255, 255, 0.493);
+}
